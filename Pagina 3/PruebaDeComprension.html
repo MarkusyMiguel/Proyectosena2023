@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Prueba de Comprensión en Inglés</title>
+    <style>
+      /* Estilos para la página */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f5f5f5;
+        margin: 0;
+        padding: 0;
+      }
+      
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+      }
+      
+      h1 {
+        margin: 0;
+        font-size: 36px;
+        text-align: center;
+      }
+      
+      .quiz {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        padding: 20px;
+        margin: 20px;
+      }
+      
+      h2 {
+        font-size: 24px;
+        margin-top: 0;
+      }
+      
+      form {
+        margin-top: 20px;
+      }
+      
+      .question {
+        margin-bottom: 10px;
+      }
+      
+      input[type="radio"] {
+        margin-right: 10px;
+      }
+      
+      input[type="submit"] {
+        background-color: #333;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 18px;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      .results {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        padding: 20px;
+        margin: 20px;
+      }
+      
+      h3 {
+        font-size: 24px;
+        margin-top: 0;
+      }
+      
+      .correct {
+        color: green;
+      }
+      
+      .incorrect {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Prueba de Comprensión en Inglés</h1>
+    </header>
+    <div class="quiz">
+      <h2>Comprensión de Lectura</h2>
+      <form>
+        <div class="question">
+          <p>Read the following paragraph:</p>
+          <p>John is a student. He likes to play guitar and listen to music. His favorite band is The Beatles.</p>
+          <p>Based on the paragraph, answer the following question:</p>
+          <p>What is John's favorite band?</p>
+          <label>
+            <input type="radio" name="q1" value="a"> The Rolling Stones
+          </label><br>
+          <label>
+            <input type="radio" name="q1" value="b"> The Beatles
+          </label><br>
+          <label>
+            <input type="radio" name="q1" value="c"> Led Zeppelin
+          </label><br>
+          <label>
+            <input type="radio" name="q1" value="d"> Pink Floyd
+          </label>
+        </div>
+        <div class="question">
+          <p>Read the following sentence:</p>
+          <p>I have ___ apples.</p>
+          <p>Choose the correct word to complete the sentence:</p>
+          <label>
+            <input type="radio" name="q2" value="a"> some
+          </label><br>
+          <label>
+            <input type="radio" name="q2" value="b"> any
+          </label><br>
+          <label>
+            <input type="radio" name="q2" value="c"> a few
+          </label><br>
+          <label>
+            <input type="radio" name="q2" value="d"> many
+          </label>
+        </div>
+        <input type="submit" value="Comprobar Respuestas">
+      </form>
+    </div>
+    <div class="results">
+      <h3>Resultados</h3>
+      <p>Pregunta 1: <span class="correct">Correcta</span></p>
+      <p>Pregunta 2: <span class="incorrect">Incorrecta</span></p>
+    </div>
+  </body>
+</html>
